@@ -222,6 +222,9 @@ public class MQClientAPIImpl {
     }
 
     public void start() {
+        /**
+         * NettyRemotingClient:rocketMQ各进程之间网络通信的底层实现类
+         */
         this.remotingClient.start();
     }
 
